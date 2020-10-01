@@ -1,0 +1,4 @@
+<Response>
+  <Say voice="man" language="es-us" loop="0">{{causa}}</Say>
+  <Redirect method="GET">EXAMPLE2 Menu</Redirect>
+</Response>

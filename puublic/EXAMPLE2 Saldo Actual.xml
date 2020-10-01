@@ -1,0 +1,4 @@
+<Response>
+  <Say voice="man" language="es-us" loop="0">Estimado {{nombreUsuario}}, su saldo actual es de {{saldoActual}} pesos</Say>
+  <Redirect method="GET">EXAMPLE2 Menu</Redirect>
+</Response>

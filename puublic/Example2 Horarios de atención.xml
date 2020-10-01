@@ -1,0 +1,4 @@
+<Response>
+<Say voice="man" language="es-us" loop="0">Nuestros horarios de atención son de 9 de la mañana a 8 de la noche.</Say>
+<Redirect method="GET">EXAMPLE2 Menu</Redirect>
+</Response>

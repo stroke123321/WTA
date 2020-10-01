@@ -1,0 +1,4 @@
+<Response>
+  	<Say voice="man" language="es-us" loop="0">Será trasferido con un agente. Hasta luego</Say>
+    <Dial>+525555555555</Dial>
+</Response>

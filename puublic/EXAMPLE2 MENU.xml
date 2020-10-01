@@ -1,0 +1,10 @@
+ <!-- COMENTARIOS-->
+<Response>
+    <Record background="true" timeout="60" action="https://demo9758806.mockable.io/CPaaSRecord" method="POST" finishOnKey="#"/>
+  <Gather method="POST" numDigits="1" finishOnKey="#" action="/WorkShop/Example2?example2=one">
+    <Say voice="man" language="es-us" loop="0">Presiona</Say>
+    <Say voice="man" language="es-us" loop="0">Uno para consulta de saldo.</Say>
+    <Say voice="man" language="es-us" loop="0">Dos para horarios de atención.</Say>
+    <Say voice="man" language="es-us" loop="0">Cero para hablar con un agente.</Say>
+  </Gather>
+</Response>

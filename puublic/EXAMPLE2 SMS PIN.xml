@@ -1,0 +1,6 @@
+<Response>
+  <Gather method="POST" numDigits="6" finishOnKey="#" action="/WorkShop/Example2?example2=three&amp;numerodecuenta={{numerodecuenta}}" timeout="120">
+      <Say voice="man" language="es-us" loop="0">Hemos enviado su código de verificación por SMS, favor de ingresar código para continuar</Say>
+  </Gather>
+  <Redirect method="GET">EXAMPLE2 Menu</Redirect>
+</Response>
